@@ -1,0 +1,127 @@
+/*VARIABLES*/
+/*VARIABLES DE ENCABEZADOS*/
+$font-weight: bold;
+$size-head: 20px;
+$top-head: 7%;
+/*==========================*/
+/*colores*/
+$rojo: #EA4748;
+$gris: #656565;
+$gris-claro: #A1A1A1;
+/*==========================*/
+
+.news{
+	margin-top: 3%;
+}
+
+ul{
+  li{
+    a{
+      font-weight: $font-weight;
+      color: $gris;
+    }
+  }
+}
+
+h5,
+p {
+  font-weight: bold;
+}
+
+h5{
+  color: $gris;
+}
+
+.gris-claro{
+  color: $gris-claro;
+}
+/*HR STYLES*/
+.hr-rojo{
+  background-color: $rojo;
+  height: 4px;
+  margin-top: -0.001%;
+}
+
+.hr-gris{
+  background-color: $gris-claro;
+  height: 1px;
+  margin-top: 2%;
+  width: 98%;
+}
+/*=======================*/
+
+.margen-nav{
+	margin-top: 4%;
+}
+
+
+
+.seccion-uno{
+	margin-top: 3%;
+}
+
+.imagen-1{
+	width: 95%;
+}
+
+.imagen-6{
+  width: 100%;
+}
+
+.imagen-13{
+    width: 50%;
+    margin-top: 3%;
+}
+
+.imagen-4{
+	width:42%;
+	margin-top: 3%;
+	margin-left: 5%;
+}
+
+.head{
+  font-weight: $font-weight;
+  color: $gris; 
+  font-size: $size-head;
+  margin-top: $top-head;
+}
+
+.rojo{
+  color: $rojo;
+  font-weight: bold;
+}
+
+/*.facebook, .twitter, .google{
+ float: left;
+ display: inline-block;
+}*/
+
+/*ESTRELLAS*/
+/*ESTRELLAS LADO DERECHO*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+  color: $rojo;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+/*ESTRELLAS LADO IZQUIERDO*/
+.izquierda > span:hover:before {
+   content: "\2605";
+   position: absolute;
+   color: $rojo;
+}
+
+.foto-5{
+  width: 95%;
+}
+
+
